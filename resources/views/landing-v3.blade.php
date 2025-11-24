@@ -510,79 +510,79 @@
             </div>
 
             <div class="max-w-5xl mx-auto">
-                <div class="bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 overflow-hidden">
-                    <table class="w-full">
+                <div class="bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 overflow-x-auto">
+                    <table class="w-full min-w-[600px]">
                         <thead>
                             <tr class="border-b border-white/20">
-                                <th class="p-6 text-left"></th>
-                                <th class="p-6 text-center bg-yellow-500/20">
-                                    <div class="font-bold text-xl">SíndicoFácil</div>
-                                    <div class="text-sm text-yellow-300">✨ Nossa solução</div>
+                                <th class="p-3 sm:p-6 text-left"></th>
+                                <th class="p-3 sm:p-6 text-center bg-yellow-500/20">
+                                    <div class="font-bold text-base sm:text-xl">SíndicoFácil</div>
+                                    <div class="text-xs sm:text-sm text-yellow-300">✨ Nossa solução</div>
                                 </th>
-                                <th class="p-6 text-center">
-                                    <div class="text-gray-300">Outros Sistemas</div>
+                                <th class="p-3 sm:p-6 text-center">
+                                    <div class="text-sm sm:text-base text-gray-300">Outros Sistemas</div>
                                     <div class="text-xs text-gray-400">(Superlógica, TownSq, etc.)</div>
                                 </th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-white/10">
                             <tr>
-                                <td class="p-6">Mensalidade</td>
-                                <td class="p-6 text-center bg-yellow-500/10">
-                                    <div class="text-2xl font-bold text-yellow-400">R$ 79–179</div>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Mensalidade</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-lg sm:text-2xl font-bold text-yellow-400">R$ 79–179</div>
                                     <div class="text-xs text-gray-300">por condomínio</div>
                                 </td>
-                                <td class="p-6 text-center">
-                                    <div class="text-xl text-red-300">R$ 200–500+</div>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-base sm:text-xl text-red-300">R$ 200–500+</div>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-6">Tempo de configuração</td>
-                                <td class="p-6 text-center bg-yellow-500/10">
-                                    <div class="text-green-400 font-bold">5 minutos</div>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Tempo de configuração</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-green-400 font-bold text-sm sm:text-base">5 minutos</div>
                                 </td>
-                                <td class="p-6 text-center">
-                                    <div class="text-red-300">2–3 dias</div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="p-6">Facilidade de uso</td>
-                                <td class="p-6 text-center bg-yellow-500/10">
-                                    <div class="text-green-400">✓ Interface simples e intuitiva</div>
-                                </td>
-                                <td class="p-6 text-center">
-                                    <div class="text-red-300">✗ Exige treinamento</div>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-red-300 text-sm sm:text-base">2–3 dias</div>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-6">Suporte</td>
-                                <td class="p-6 text-center bg-yellow-500/10">
-                                    <div class="text-green-400">✓ Suporte rápido via WhatsApp</div>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Facilidade de uso</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-green-400 text-xs sm:text-base">✓ Interface simples e intuitiva</div>
+                                </td>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-red-300 text-xs sm:text-base">✗ Exige treinamento</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Suporte</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-green-400 text-xs sm:text-base">✓ Suporte rápido via WhatsApp</div>
                                     <div class="text-xs text-gray-300">Resposta em menos de 2 horas</div>
                                 </td>
-                                <td class="p-6 text-center">
-                                    <div class="text-red-300">✗ Atendimento apenas por e-mail</div>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-red-300 text-xs sm:text-base">✗ Atendimento apenas por e-mail</div>
                                     <div class="text-xs text-gray-400">Demora de vários dias</div>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-6">Teste grátis</td>
-                                <td class="p-6 text-center bg-yellow-500/10">
-                                    <div class="text-green-400 font-bold">14 dias</div>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Teste grátis</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-green-400 font-bold text-sm sm:text-base">14 dias</div>
                                     <div class="text-xs text-gray-300">Sem cartão de crédito</div>
                                 </td>
-                                <td class="p-6 text-center">
-                                    <div class="text-red-300">7 dias</div>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-red-300 text-sm sm:text-base">7 dias</div>
                                     <div class="text-xs text-gray-400">Cartão obrigatório</div>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-6">Contrato</td>
-                                <td class="p-6 text-center bg-yellow-500/10">
-                                    <div class="text-green-400">✓ Cancele quando quiser</div>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Contrato</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-green-400 text-xs sm:text-base">✓ Cancele quando quiser</div>
                                 </td>
-                                <td class="p-6 text-center">
-                                    <div class="text-red-300">✗ Fidelidade mínima de 12 meses</div>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-red-300 text-xs sm:text-base">✗ Fidelidade mínima de 12 meses</div>
                                 </td>
                             </tr>
                         </tbody>
