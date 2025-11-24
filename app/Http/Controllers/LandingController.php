@@ -27,9 +27,13 @@ class LandingController extends Controller
 
         $lead = Lead::create($validated);
 
-        // Envia email de notificação de forma assíncrona (não bloqueia a resposta)
-        Mail::to(env('MAIL_ADMIN', 'admin@example.com'))
-            ->queue(new NovoLeadNotification($lead));
+        // TEMPORARIAMENTE DESABILITADO: Envio de email comentado até resolver config SMTP
+        // TODO: Reativar após configurar SMTP corretamente no Railway
+        // Mail::to(env('MAIL_ADMIN', 'admin@example.com'))
+        //     ->queue(new NovoLeadNotification($lead));
+
+        // Leads são salvos no banco de dados (tabela 'leads')
+        // Você pode consultar com: SELECT * FROM leads;
 
         // Redireciona para home com mensagem de sucesso (padrão PRG - Post/Redirect/Get)
         return redirect()->route('home')->with('success', 'Cadastro realizado com sucesso! Entraremos em contato em breve.');
