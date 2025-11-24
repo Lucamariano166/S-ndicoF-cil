@@ -13,15 +13,13 @@ touch database/database.sqlite
 echo "Setting permissions..."
 chmod -R 775 storage bootstrap/cache database 2>/dev/null || true
 
-echo "Clearing ALL caches..."
-php artisan optimize:clear
+echo "Running migrations first..."
+php artisan migrate --force
+
+echo "Clearing caches..."
 php artisan config:clear
 php artisan route:clear
 php artisan view:clear
-php artisan cache:clear
-
-echo "Running migrations..."
-php artisan migrate --force
 
 echo "Checking build assets..."
 ls -la public/build/ || echo "Build directory not found!"
