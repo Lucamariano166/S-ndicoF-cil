@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\NovoLeadNotification;
+// use App\Mail\NovoLeadNotification; // Temporariamente não usado
 use App\Models\Lead;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
+// use Illuminate\Support\Facades\Mail; // Temporariamente não usado
 
 class LandingController extends Controller
 {
