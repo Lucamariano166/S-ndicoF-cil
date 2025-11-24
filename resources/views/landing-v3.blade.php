@@ -415,6 +415,184 @@
         </div>
     </section>
 
+    <!-- Gestão de Entregas -->
+    <section class="py-24 bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-20 left-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+            <div class="absolute bottom-20 right-20 w-96 h-96 bg-yellow-300 rounded-full blur-3xl"></div>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center mb-16">
+                <span class="inline-block px-4 py-2 bg-yellow-400/20 backdrop-blur-sm rounded-full text-sm font-semibold mb-4 border border-yellow-400/30">
+                    🎁 NOVIDADE - DIFERENCIAL EXCLUSIVO
+                </span>
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    Gestão Inteligente de <span class="bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent">Entregas</span>
+                </h2>
+                <p class="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
+                    Acabou a bagunça da portaria. Sistema completo que os síndicos <strong class="text-yellow-300">amam</strong>.
+                </p>
+            </div>
+
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1: Registro -->
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+                    <div class="w-14 h-14 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
+                        📦
+                    </div>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-3">1. Registro Completo</h3>
+                    <ul class="space-y-2 text-sm sm:text-base text-blue-100">
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span>Foto da encomenda</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span>Nome do porteiro responsável</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span>Data e hora automáticas</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span>Morador selecionado</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Card 2: Notificação -->
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+                    <div class="w-14 h-14 bg-gradient-to-br from-green-400 to-emerald-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
+                        🔔
+                    </div>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-3">2. Notificação Automática</h3>
+                    <ul class="space-y-2 text-sm sm:text-base text-blue-100">
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span><strong>WhatsApp</strong> instantâneo</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span><strong>Notificação</strong> no app</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span><strong>E-mail</strong> com detalhes</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-yellow-300 mt-1">⚡</span>
+                            <span class="text-yellow-300 font-semibold">Morador avisado em segundos!</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Card 3: Confirmação -->
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+                    <div class="w-14 h-14 bg-gradient-to-br from-purple-400 to-pink-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
+                        ✍️
+                    </div>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-3">3. Confirmação de Retirada</h3>
+                    <ul class="space-y-2 text-sm sm:text-base text-blue-100">
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span>Assinatura digital do morador</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span>Ou confirmação pelo porteiro</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span>Registro de data/hora exatas</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-yellow-300 mt-1">🛡️</span>
+                            <span class="text-yellow-300 font-semibold">Proteção total contra perdas</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Card 4: Dashboard -->
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105 md:col-span-2 lg:col-span-2">
+                    <div class="w-14 h-14 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
+                        📊
+                    </div>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-3">4. Dashboard do Síndico</h3>
+                    <p class="text-yellow-300 font-semibold mb-4 text-sm sm:text-base">⭐ Isso o síndico AMA!</p>
+                    <div class="grid sm:grid-cols-2 gap-3 text-sm sm:text-base text-blue-100">
+                        <div class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span><strong>Entregas por dia</strong> em gráficos</span>
+                        </div>
+                        <div class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span><strong>Pendentes</strong> em tempo real</span>
+                        </div>
+                        <div class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span><strong>Atrasadas</strong> com alertas</span>
+                        </div>
+                        <div class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span><strong>Top moradores</strong> que nunca retiram</span>
+                        </div>
+                        <div class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span><strong>SLA da portaria</strong> (eficiência)</span>
+                        </div>
+                        <div class="flex items-start gap-2">
+                            <span class="text-yellow-300 mt-1">📈</span>
+                            <span class="text-yellow-300 font-semibold">Visibilidade total!</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5: Relatório -->
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105 lg:col-span-1">
+                    <div class="w-14 h-14 bg-gradient-to-br from-red-400 to-rose-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
+                        📄
+                    </div>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-3">5. Relatório Mensal</h3>
+                    <ul class="space-y-2 text-sm sm:text-base text-blue-100">
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span><strong>PDF automático</strong> com tudo</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span>Estatísticas completas</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-400 mt-1">✓</span>
+                            <span>Pronto para assembleias</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-yellow-300 mt-1">💼</span>
+                            <span class="text-yellow-300 font-semibold">Ajuda na venda!</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CTA da seção -->
+            <div class="text-center mt-12">
+                <div class="bg-yellow-400/20 backdrop-blur-sm border border-yellow-400/30 rounded-2xl p-6 sm:p-8 max-w-3xl mx-auto">
+                    <p class="text-lg sm:text-xl mb-4">
+                        <strong class="text-yellow-300">EXCLUSIVO:</strong> Poucos sistemas no Brasil têm isso. Diferencial competitivo enorme!
+                    </p>
+                    <a href="#cadastro" class="inline-flex items-center justify-center px-8 sm:px-10 py-4 sm:py-5 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-blue-900 font-bold text-lg sm:text-xl rounded-2xl shadow-2xl transition-all duration-300 transform hover:scale-105">
+                        TESTAR GESTÃO DE ENTREGAS GRÁTIS
+                        <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Depoimentos -->
     <section class="py-24 bg-white">
         <div class="container mx-auto px-4">
