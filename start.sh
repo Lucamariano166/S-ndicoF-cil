@@ -41,7 +41,7 @@ echo "Testing application..."
 php artisan route:list
 
 echo "Starting queue worker in background..."
-php artisan queue:work --daemon --tries=3 --timeout=90 &
+php artisan queue:work --daemon --tries=3 --timeout=120 --sleep=3 --max-time=3600 &
 
 echo "Starting server on port $PORT..."
 exec php artisan serve --host=0.0.0.0 --port=$PORT
