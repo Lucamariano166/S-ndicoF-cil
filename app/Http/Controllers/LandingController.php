@@ -12,11 +12,17 @@ class LandingController extends Controller
     public function index()
     {
         try {
-            return view('landing-v3');
+            // Test if view file exists
+            if (!view()->exists('landing-v3')) {
+                return response('View landing-v3 not found', 404);
+            }
+
+            // Try to render with explicit empty errors bag
+            return view('landing-v3')->with('errors', new \Illuminate\Support\ViewErrorBag());
         } catch (\Exception $e) {
             \Log::error('Landing page error: ' . $e->getMessage());
             \Log::error($e->getTraceAsString());
-            throw $e;
+            return response('Error: ' . $e->getMessage(), 500);
         }
     }
 
