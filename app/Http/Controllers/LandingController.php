@@ -13,8 +13,8 @@ class LandingController extends Controller
     {
         error_log('LandingController called');
 
-        // Return simple HTML without Blade for now
-        return response()->view('landing-v3');
+        // Test with simple view first
+        return view('test-simple');
     }
 
     public function store(Request $request)
