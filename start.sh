@@ -13,10 +13,12 @@ touch database/database.sqlite
 echo "Setting permissions..."
 chmod -R 775 storage bootstrap/cache database 2>/dev/null || true
 
-echo "Clearing caches..."
+echo "Clearing ALL caches..."
+php artisan optimize:clear
 php artisan config:clear
 php artisan route:clear
 php artisan view:clear
+php artisan cache:clear
 
 echo "Running migrations..."
 php artisan migrate --force

@@ -12,26 +12,34 @@ class LandingController extends Controller
     public function index()
     {
         // Log that we reached the controller
-        error_log('LandingController::index() called');
+        error_log('========================================');
+        error_log('LandingController::index() called at ' . date('Y-m-d H:i:s'));
+        error_log('Request URL: ' . request()->fullUrl());
+        error_log('========================================');
 
         try {
-            // Test if view file exists
+            // Simple test first
+            error_log('Step 1: Checking view exists');
             if (!view()->exists('landing-v3')) {
-                error_log('View landing-v3 not found');
+                error_log('ERROR: View landing-v3 not found');
                 return response('View landing-v3 not found', 404);
             }
 
-            error_log('Attempting to render view');
+            error_log('Step 2: Creating empty ViewErrorBag');
+            $errorBag = new \Illuminate\Support\ViewErrorBag();
 
-            // Try to render with explicit empty errors bag
-            $view = view('landing-v3')->with('errors', new \Illuminate\Support\ViewErrorBag());
+            error_log('Step 3: Attempting to render view');
+            $content = view('landing-v3')->with('errors', $errorBag)->render();
 
-            error_log('View rendered successfully');
-            return $view;
+            error_log('Step 4: View rendered successfully, length: ' . strlen($content));
+            return response($content)->header('X-Laravel-Response', 'true');
         } catch (\Throwable $e) {
-            error_log('Exception in LandingController: ' . $e->getMessage());
+            $error = 'Exception in LandingController: ' . $e->getMessage() . "\n\nFile: " . $e->getFile() . ':' . $e->getLine();
+            error_log('========================================');
+            error_log('EXCEPTION: ' . $error);
             error_log('Stack trace: ' . $e->getTraceAsString());
-            return response('Error: ' . $e->getMessage() . "\n\nFile: " . $e->getFile() . "\nLine: " . $e->getLine(), 500);
+            error_log('========================================');
+            return response($error, 500)->header('X-Laravel-Response', 'error');
         }
     }
 
