@@ -11,7 +11,12 @@ echo "Creating database file..."
 touch database/database.sqlite
 
 echo "Setting permissions..."
-chmod -R 775 storage bootstrap/cache database 2>/dev/null || true
+chmod -R 777 storage
+chmod -R 777 bootstrap/cache
+chmod 666 database/database.sqlite 2>/dev/null || true
+
+echo "Verifying storage permissions..."
+ls -la storage/framework/
 
 echo "Running migrations first..."
 php artisan migrate --force
