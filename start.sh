@@ -16,5 +16,13 @@ chmod -R 775 storage bootstrap/cache database 2>/dev/null || true
 echo "Running migrations..."
 php artisan migrate --force || echo "Migration failed, continuing..."
 
+echo "Clearing caches..."
+php artisan config:clear || true
+php artisan route:clear || true
+php artisan view:clear || true
+
+echo "Testing application..."
+php artisan route:list || echo "Route list failed"
+
 echo "Starting server on port $PORT..."
 exec php artisan serve --host=0.0.0.0 --port=$PORT
