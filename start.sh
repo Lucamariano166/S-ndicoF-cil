@@ -13,16 +13,20 @@ touch database/database.sqlite
 echo "Setting permissions..."
 chmod -R 775 storage bootstrap/cache database 2>/dev/null || true
 
-echo "Running migrations..."
-php artisan migrate --force || echo "Migration failed, continuing..."
-
 echo "Clearing caches..."
-php artisan config:clear || true
-php artisan route:clear || true
-php artisan view:clear || true
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
+
+echo "Running migrations..."
+php artisan migrate --force
+
+echo "Checking build assets..."
+ls -la public/build/ || echo "Build directory not found!"
+cat public/build/manifest.json || echo "Manifest not found!"
 
 echo "Testing application..."
-php artisan route:list || echo "Route list failed"
+php artisan route:list
 
 echo "Starting server on port $PORT..."
 exec php artisan serve --host=0.0.0.0 --port=$PORT
