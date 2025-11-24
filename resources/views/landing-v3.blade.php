@@ -425,13 +425,13 @@
         <div class="container mx-auto px-4 relative z-10">
             <div class="text-center mb-16">
                 <span class="inline-block px-4 py-2 bg-yellow-400/20 backdrop-blur-sm rounded-full text-sm font-semibold mb-4 border border-yellow-400/30">
-                    🎁 NOVIDADE - DIFERENCIAL EXCLUSIVO
+                    NOVIDADE - DIFERENCIAL EXCLUSIVO
                 </span>
                 <h2 class="text-4xl md:text-5xl font-bold mb-4">
                     Gestão Inteligente de <span class="bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent">Entregas</span>
                 </h2>
                 <p class="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
-                    Acabou a bagunça da portaria. Sistema completo que os síndicos <strong class="text-yellow-300">amam</strong>.
+                    Acabou a bagunça na portaria. Um sistema moderno, rápido e seguro que os síndicos realmente <strong class="text-yellow-300">AMAM</strong>.
                 </p>
             </div>
 
@@ -441,7 +441,7 @@
                     <div class="w-14 h-14 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
                         📦
                     </div>
-                    <h3 class="text-xl sm:text-2xl font-bold mb-3">1. Registro Completo</h3>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-3">1. Registro Completo de Entregas</h3>
                     <ul class="space-y-2 text-sm sm:text-base text-blue-100">
                         <li class="flex items-start gap-2">
                             <span class="text-green-400 mt-1">✓</span>
@@ -467,7 +467,7 @@
                     <div class="w-14 h-14 bg-gradient-to-br from-green-400 to-emerald-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
                         🔔
                     </div>
-                    <h3 class="text-xl sm:text-2xl font-bold mb-3">2. Notificação Automática</h3>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-3">2. Notificação Automática ao Morador</h3>
                     <ul class="space-y-2 text-sm sm:text-base text-blue-100">
                         <li class="flex items-start gap-2">
                             <span class="text-green-400 mt-1">✓</span>
