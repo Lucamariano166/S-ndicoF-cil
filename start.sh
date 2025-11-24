@@ -14,7 +14,7 @@ echo "Setting permissions..."
 chmod -R 775 storage bootstrap/cache database 2>/dev/null || true
 
 echo "Running migrations..."
-php artisan migrate --force --isolated || echo "Migration failed, continuing..."
+php artisan migrate --force || echo "Migration failed, continuing..."
 
 echo "Starting server on port $PORT..."
 exec php artisan serve --host=0.0.0.0 --port=$PORT
