@@ -11,10 +11,7 @@ class LandingController extends Controller
 {
     public function index()
     {
-        error_log('LandingController called');
-
-        // Test with direct HTML response
-        return response('<html><body><h1>Direct HTML Response Works!</h1></body></html>');
+        return view('landing-v3');
     }
 
     public function store(Request $request)
