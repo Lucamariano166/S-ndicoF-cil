@@ -16,5 +16,12 @@ return Application::configure(basePath: dirname(__DIR__))
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
-        //
+        // Redireciona para home em caso de erro 419 (CSRF token expirado)
+        $exceptions->respond(function (\Illuminate\Http\Response $response) {
+            if ($response->getStatusCode() === 419) {
+                return redirect()->route('home')->with('error', 'Sua sessão expirou. Por favor, tente novamente.');
+            }
+
+            return $response;
+        });
     })->create();

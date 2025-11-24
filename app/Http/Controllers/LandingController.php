@@ -31,6 +31,7 @@ class LandingController extends Controller
         Mail::to(env('MAIL_ADMIN', 'admin@example.com'))
             ->queue(new NovoLeadNotification($lead));
 
-        return redirect()->back()->with('success', 'Cadastro realizado com sucesso! Entraremos em contato em breve.');
+        // Redireciona para home com mensagem de sucesso (padrão PRG - Post/Redirect/Get)
+        return redirect()->route('home')->with('success', 'Cadastro realizado com sucesso! Entraremos em contato em breve.');
     }
 }
