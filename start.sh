@@ -1,6 +1,13 @@
 #!/bin/bash
 set -e
 
+# Configure APP_URL for Railway
+if [ ! -z "$RAILWAY_PUBLIC_DOMAIN" ]; then
+    export APP_URL="https://$RAILWAY_PUBLIC_DOMAIN"
+    export ASSET_URL="https://$RAILWAY_PUBLIC_DOMAIN"
+    echo "Configured APP_URL: $APP_URL"
+fi
+
 echo "Creating directories..."
 mkdir -p storage/framework/{sessions,views,cache}
 mkdir -p storage/logs
