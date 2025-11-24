@@ -40,5 +40,8 @@ cat public/build/manifest.json || echo "Manifest not found!"
 echo "Testing application..."
 php artisan route:list
 
+echo "Starting queue worker in background..."
+php artisan queue:work --daemon --tries=3 --timeout=90 &
+
 echo "Starting server on port $PORT..."
 exec php artisan serve --host=0.0.0.0 --port=$PORT

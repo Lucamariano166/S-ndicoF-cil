@@ -27,9 +27,9 @@ class LandingController extends Controller
 
         $lead = Lead::create($validated);
 
-        // Envia email de notificação
+        // Envia email de notificação de forma assíncrona (não bloqueia a resposta)
         Mail::to(env('MAIL_ADMIN', 'admin@example.com'))
-            ->send(new NovoLeadNotification($lead));
+            ->queue(new NovoLeadNotification($lead));
 
         return redirect()->back()->with('success', 'Cadastro realizado com sucesso! Entraremos em contato em breve.');
     }
