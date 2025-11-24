@@ -11,7 +11,7 @@ class LandingController extends Controller
 {
     public function index()
     {
-        return view('landing-v3');
+        return view('test-simple');
     }
 
     public function store(Request $request)
