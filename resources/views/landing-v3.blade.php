@@ -38,55 +38,62 @@
 
         <div class="container mx-auto px-4 py-20 relative z-10">
             <div class="max-w-5xl mx-auto text-center">
+
+                <!-- BADGE -->
                 <div class="inline-flex items-center px-4 py-2 bg-green-500/20 backdrop-blur-sm rounded-full text-sm font-semibold mb-8 border border-green-400/30">
                     <span class="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
-                    + de 300 síndicos economizam 8h/semana com o SíndicoFácil
+                    Estamos abrindo acesso antecipado para síndicos selecionados
                 </div>
 
+                <!-- TÍTULO -->
                 <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
-                    Economize <span class="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">8 Horas</span><br />
-                    por Semana na Gestão<br />
-                    do Seu Condomínio
+                    A Nova Forma de <span class="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Gerir Condomínios</span><br />
+                    de Forma Simples e Sem Dor de Cabeça
                 </h1>
 
+                <!-- SUBTÍTULO -->
                 <p class="text-2xl md:text-3xl mb-8 font-light leading-relaxed">
-                    Boletos automáticos, chamados organizados e<br />
-                    prestação de contas em 1 clique.<br />
-                    <strong class="text-yellow-400">Sem planilhas. Sem dor de cabeça.</strong>
+                    Estamos desenvolvendo uma plataforma moderna para simplificar<br />
+                    boletos, chamados, comunicação e gestão financeira — tudo em um só lugar.<br />
+                    <strong class="text-yellow-400">Participe do acesso antecipado.</strong>
                 </p>
 
+                <!-- CTA -->
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                     <a href="#cadastro" class="group relative inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-blue-900 font-bold text-xl rounded-2xl shadow-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-yellow-500/50">
-                        COMEÇAR TESTE GRÁTIS (14 DIAS)
+                        QUERO ENTRAR NA LISTA DE ESPERA
                         <svg class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
                         </svg>
                     </a>
                 </div>
 
+                <!-- SELLOS -->
                 <div class="flex flex-wrap justify-center gap-6 text-sm mb-8">
                     <div class="flex items-center gap-2">
                         <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                         </svg>
-                        <span><strong>Sem cartão de crédito</strong></span>
+                        <span><strong>Acesso antecipado gratuito</strong></span>
                     </div>
+
                     <div class="flex items-center gap-2">
                         <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                         </svg>
-                        <span><strong>Configure em menos de 5 minutos</strong></span>
+                        <span><strong>Você ajuda a construir o produto</strong></span>
                     </div>
+
                     <div class="flex items-center gap-2">
                         <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                         </svg>
-                        <span><strong>Cancele quando quiser</strong></span>
+                        <span><strong>Prioridade no lançamento oficial</strong></span>
                     </div>
                 </div>
 
                 <p class="text-sm text-blue-200">
-                    ⭐⭐⭐⭐⭐ 4.9/5 - Avaliação média de 300+ síndicos
+                    💡 Seja um dos primeiros a testar — vagas limitadas
                 </p>
             </div>
         </div>
@@ -98,25 +105,26 @@
         </div>
     </section>
 
+
     <!-- Prova Social -->
     <section class="py-12 bg-white border-b border-gray-200">
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto text-center">
                 <div>
-                    <div class="text-4xl font-bold text-blue-600 mb-2">300+</div>
-                    <div class="text-gray-600">Condomínios ativos</div>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">✔️</div>
+                    <div class="text-gray-600">Automatização financeira</div>
                 </div>
                 <div>
-                    <div class="text-4xl font-bold text-blue-600 mb-2">8h</div>
-                    <div class="text-gray-600">Economizadas por semana</div>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">✔️</div>
+                    <div class="text-gray-600">Gestão organizada</div>
                 </div>
                 <div>
-                    <div class="text-4xl font-bold text-blue-600 mb-2">94%</div>
-                    <div class="text-gray-600">Redução de inadimplência</div>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">✔️</div>
+                    <div class="text-gray-600">Comunicação centralizada</div>
                 </div>
                 <div>
-                    <div class="text-4xl font-bold text-blue-600 mb-2">4.9⭐</div>
-                    <div class="text-gray-600">Avaliação dos usuários</div>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">✔️</div>
+                    <div class="text-gray-600">Informações em um só lugar</div>
                 </div>
             </div>
         </div>
@@ -127,13 +135,13 @@
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <span class="inline-block px-4 py-2 bg-red-100 text-red-600 rounded-full text-sm font-semibold mb-4">
-                    VOCÊ ESTÁ PERDENDO TEMPO E DINHEIRO
+                    VOCÊ ENFRENTA ISSO NO SEU CONDOMÍNIO?
                 </span>
                 <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                     Reconhece Essas Situações?
                 </h2>
                 <p class="text-xl text-gray-600">
-                    Se você passa por isso todo mês, precisa conhecer o SíndicoFácil
+                    Criamos o SíndicoFácil para resolver exatamente esses problemas
                 </p>
             </div>
 
@@ -144,10 +152,10 @@
                             💸
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-900">Inadimplência fora de controle?</h3>
+                            <h3 class="text-xl font-bold mb-2 text-gray-900">Dificuldade com inadimplência?</h3>
                             <p class="text-gray-700">
-                                <strong>Você esquece de cobrar</strong>, moradores "esquecem" de pagar, e o condomínio fica no vermelho.
-                                <span class="text-red-600 font-semibold">Resultado: falta dinheiro para manutenção.</span>
+                                Cobranças manuais, lembretes esquecidos e moradores atrasando pagamentos
+                                tornam a gestão financeira mais complicada.
                             </p>
                         </div>
                     </div>
@@ -159,10 +167,10 @@
                             📊
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-900">Planilhas viraram bagunça?</h3>
+                            <h3 class="text-xl font-bold mb-2 text-gray-900">Planilhas gerando dor de cabeça?</h3>
                             <p class="text-gray-700">
-                                Você <strong>perde 5+ horas todo mês</strong> atualizando Excel, mas ainda assim cobra valores errados ou perde informações.
-                                <span class="text-orange-600 font-semibold">E moradores reclamam.</span>
+                                Atualizar planilhas todo mês é demorado e aumenta as chances de erros e
+                                informações perdidas.
                             </p>
                         </div>
                     </div>
@@ -174,10 +182,10 @@
                             📱
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-900">Chamados dos moradores perdidos?</h3>
+                            <h3 class="text-xl font-bold mb-2 text-gray-900">Chamados desorganizados?</h3>
                             <p class="text-gray-700">
-                                <strong>WhatsApp lotado</strong>, pedidos no grupo que você não anotou, moradores cobrando resposta.
-                                <span class="text-yellow-700 font-semibold">Você parece desorganizado.</span>
+                                Pedidos chegam por WhatsApp, bilhetes ou conversas rápidas —
+                                e sem registro, muitos acabam esquecidos.
                             </p>
                         </div>
                     </div>
@@ -189,10 +197,10 @@
                             📄
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-900">Prestação de contas demorada?</h3>
+                            <h3 class="text-xl font-bold mb-2 text-gray-900">Prestação de contas difícil?</h3>
                             <p class="text-gray-700">
-                                <strong>Horas preparando relatórios</strong> para assembleia, juntando documentos espalhados,
-                                <span class="text-purple-600 font-semibold">e sempre alguém questiona algum número.</span>
+                                Reunir comprovantes, lançar despesas e preparar relatórios leva muito tempo
+                                e ainda gera questionamentos dos moradores.
                             </p>
                         </div>
                     </div>
@@ -201,13 +209,13 @@
 
             <div class="text-center mt-12">
                 <p class="text-2xl font-bold text-gray-900 mb-4">
-                    Se você respondeu SIM para 2 ou mais situações...
+                    Se duas ou mais situações parecem familiares...
                 </p>
                 <p class="text-xl text-gray-600 mb-8">
-                    Você está <strong class="text-red-600">perdendo tempo e dinheiro</strong> que poderiam ser economizados.
+                    Talvez seja hora de testar uma gestão mais simples, moderna e automatizada.
                 </p>
                 <a href="#cadastro" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg rounded-xl shadow-xl transition-all duration-300">
-                    Quero Resolver Isso Agora
+                    Quero Testar o SíndicoFácil
                     <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
                     </svg>
@@ -215,6 +223,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Benefícios Concretos -->
     <section class="py-24 bg-gradient-to-br from-gray-50 to-blue-50">
@@ -224,14 +233,15 @@
                     A SOLUÇÃO COMPLETA
                 </span>
                 <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                    Como o SíndicoFácil Resolve Seus Problemas
+                    Como o SíndicoFácil Te Ajuda na Gestão
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Cada funcionalidade foi pensada para <strong>eliminar trabalho manual</strong> e te dar <strong>mais tempo livre</strong>
+                    Funcionalidades criadas para reduzir tarefas manuais e tornar sua administração mais simples e organizada.
                 </p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <!-- Boletos -->
                 <div class="bg-white p-10 rounded-3xl shadow-xl border border-gray-100">
                     <div class="flex items-start gap-4 mb-6">
                         <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center">
@@ -241,42 +251,38 @@
                         </div>
                         <div>
                             <h3 class="text-2xl font-bold mb-2 text-gray-900">Boletos Automáticos</h3>
-                            <p class="text-gray-600 mb-4">Reduza inadimplência em <strong class="text-green-600">até 94%</strong></p>
+                            <p class="text-gray-600 mb-4">Organize a cobrança e facilite o controle financeiro do condomínio.</p>
                         </div>
                     </div>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-green-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Gere todos os boletos em 1 clique</strong> - não precisa mais fazer um por um</span>
+                            <span><strong>Gere todos os boletos em 1 clique</strong> — sem tarefas repetitivas.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-green-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Lembrete automático por WhatsApp</strong> 3 dias antes do vencimento</span>
+                            <span><strong>Lembrete automático por WhatsApp</strong> antes do vencimento.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-green-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Dashboard visual:</strong> quem está em dia (verde) ou devendo (vermelho)</span>
+                            <span><strong>Dashboard visual:</strong> fácil identificar quem está em dia.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-green-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Pix integrado:</strong> pagamento instantâneo, baixa automática</span>
+                            <span><strong>Pix integrado:</strong> pagamento instantâneo e registro automático.</span>
                         </li>
                     </ul>
-                    <div class="mt-6 p-4 bg-green-50 rounded-xl border border-green-200">
-                        <p class="text-sm text-green-800">
-                            <strong>💰 Resultado real:</strong> Síndico João reduziu inadimplência de 23% para 4% em 2 meses
-                        </p>
-                    </div>
                 </div>
 
+                <!-- Chamados -->
                 <div class="bg-white p-10 rounded-3xl shadow-xl border border-gray-100">
                     <div class="flex items-start gap-4 mb-6">
                         <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center">
@@ -286,42 +292,38 @@
                         </div>
                         <div>
                             <h3 class="text-2xl font-bold mb-2 text-gray-900">Central de Chamados</h3>
-                            <p class="text-gray-600 mb-4">Nunca mais perca um pedido de morador</p>
+                            <p class="text-gray-600 mb-4">Organize solicitações e acompanhe tudo em um só lugar.</p>
                         </div>
                     </div>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-blue-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Todos os pedidos em um só lugar</strong> - acabou o WhatsApp perdido</span>
+                            <span><strong>Todos os pedidos reunidos</strong> — sem mensagens perdidas.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-blue-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Status claro:</strong> pendente, em andamento, resolvido</span>
+                            <span><strong>Status organizado:</strong> pendente, em andamento ou resolvido.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-blue-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Histórico completo</strong> por apartamento (útil em assembleias)</span>
+                            <span><strong>Histórico por apartamento</strong> para consultas rápidas.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-blue-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Notificação automática</strong> quando você responde</span>
+                            <span><strong>Notificação automática</strong> quando o chamado é atualizado.</span>
                         </li>
                     </ul>
-                    <div class="mt-6 p-4 bg-blue-50 rounded-xl border border-blue-200">
-                        <p class="text-sm text-blue-800">
-                            <strong>⏱️ Economia:</strong> Maria deixou de gastar 3h/semana procurando mensagens no WhatsApp
-                        </p>
-                    </div>
                 </div>
 
+                <!-- Prestação de contas -->
                 <div class="bg-white p-10 rounded-3xl shadow-xl border border-gray-100">
                     <div class="flex items-start gap-4 mb-6">
                         <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center">
@@ -330,43 +332,39 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Prestação de Contas Instantânea</h3>
-                            <p class="text-gray-600 mb-4">Relatório pronto em <strong class="text-purple-600">1 clique</strong></p>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Prestação de Contas Simplificada</h3>
+                            <p class="text-gray-600 mb-4">Relatórios claros, sempre prontos para apresentar.</p>
                         </div>
                     </div>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-purple-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Dashboard transparente:</strong> moradores veem onde o dinheiro foi gasto</span>
+                            <span><strong>Dashboard transparente:</strong> moradores acompanham gastos com clareza.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-purple-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Gráficos automáticos</strong> por categoria (luz, água, limpeza...)</span>
+                            <span><strong>Gráficos automáticos</strong> por categoria de despesa.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-purple-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Exporta PDF profissional</strong> para assembleia</span>
+                            <span><strong>Exporta PDF</strong> para facilitar assembleias.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-purple-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Comparativo mensal:</strong> economizou ou gastou mais que o mês anterior?</span>
+                            <span><strong>Comparativo mensal</strong> para acompanhar evolução dos gastos.</span>
                         </li>
                     </ul>
-                    <div class="mt-6 p-4 bg-purple-50 rounded-xl border border-purple-200">
-                        <p class="text-sm text-purple-800">
-                            <strong>📊 Transparência:</strong> 89% dos moradores aprovam a gestão quando veem o dashboard
-                        </p>
-                    </div>
                 </div>
 
+                <!-- Documentos -->
                 <div class="bg-white p-10 rounded-3xl shadow-xl border border-gray-100">
                     <div class="flex items-start gap-4 mb-6">
                         <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center">
@@ -376,44 +374,40 @@
                         </div>
                         <div>
                             <h3 class="text-2xl font-bold mb-2 text-gray-900">Documentos Organizados</h3>
-                            <p class="text-gray-600 mb-4">Encontre qualquer documento em <strong class="text-pink-600">5 segundos</strong></p>
+                            <p class="text-gray-600 mb-4">Encontre arquivos do condomínio de forma rápida e simples.</p>
                         </div>
                     </div>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-pink-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-pink-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Tudo em um só lugar:</strong> atas, estatuto, relatórios, contratos</span>
+                            <span><strong>Todos os arquivos centralizados:</strong> atas, estatuto, relatórios, contratos e mais.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-pink-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-pink-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Busca inteligente</strong> por nome, data ou palavra-chave</span>
+                            <span><strong>Busca inteligente</strong> por nome, data ou palavra-chave.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-pink-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-pink-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Compartilhe com 1 clique</strong> via WhatsApp ou email</span>
+                            <span><strong>Compartilhe com 1 clique</strong> via WhatsApp ou e-mail.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-pink-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            <svg class="w-5 h-5 text-pink-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Backup automático na nuvem</strong> - nunca perca nada</span>
+                            <span><strong>Backup automático na nuvem</strong> para mais segurança.</span>
                         </li>
                     </ul>
-                    <div class="mt-6 p-4 bg-pink-50 rounded-xl border border-pink-200">
-                        <p class="text-sm text-pink-800">
-                            <strong>🔍 Rapidez:</strong> Antes levava 15 minutos para achar um documento, agora leva 10 segundos
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Gestão de Entregas -->
     <section class="py-24 bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 text-white relative overflow-hidden">
@@ -425,162 +419,96 @@
         <div class="container mx-auto px-4 relative z-10">
             <div class="text-center mb-16">
                 <span class="inline-block px-4 py-2 bg-yellow-400/20 backdrop-blur-sm rounded-full text-sm font-semibold mb-4 border border-yellow-400/30">
-                    NOVIDADE - DIFERENCIAL EXCLUSIVO
+                    LANÇAMENTO — FUNÇÃO QUE REVOLUCIONA A PORTARIA
                 </span>
                 <h2 class="text-4xl md:text-5xl font-bold mb-4">
                     Gestão Inteligente de <span class="bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent">Entregas</span>
                 </h2>
                 <p class="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
-                    Acabou a bagunça na portaria. Um sistema moderno, rápido e seguro que os síndicos realmente <strong class="text-yellow-300">AMAM</strong>.
+                    Chega de entregas perdidas, confusão na portaria e reclamação de moradores. Um sistema moderno, simples e rápido — que síndicos e porteiros <strong class="text-yellow-300">AMAM</strong>.
                 </p>
             </div>
 
             <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Card 1: Registro -->
+                <!-- Card 1 -->
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
                     <div class="w-14 h-14 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
                         📦
                     </div>
-                    <h3 class="text-xl sm:text-2xl font-bold mb-3">1. Registro Completo de Entregas</h3>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-3">1. Registro Completo da Entrega</h3>
                     <ul class="space-y-2 text-sm sm:text-base text-blue-100">
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span>Foto da encomenda</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span>Nome do porteiro responsável</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span>Data e hora automáticas</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span>Morador selecionado</span>
-                        </li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Foto da encomenda</li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Porteiro responsável</li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Data e hora automáticas</li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Morador selecionado</li>
                     </ul>
                 </div>
 
-                <!-- Card 2: Notificação -->
+                <!-- Card 2 -->
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
                     <div class="w-14 h-14 bg-gradient-to-br from-green-400 to-emerald-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
                         🔔
                     </div>
-                    <h3 class="text-xl sm:text-2xl font-bold mb-3">2. Notificação Automática ao Morador</h3>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-3">2. Aviso Automático ao Morador</h3>
                     <ul class="space-y-2 text-sm sm:text-base text-blue-100">
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span><strong>WhatsApp</strong> instantâneo</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span><strong>Notificação</strong> no app</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span><strong>E-mail</strong> com detalhes</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-yellow-300 mt-1">⚡</span>
-                            <span class="text-yellow-300 font-semibold">Morador avisado em segundos!</span>
-                        </li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Mensagem no <strong>WhatsApp</strong></li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Notificação no app</li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>E-mail com detalhes</li>
+                        <li class="flex items-start gap-2"><span class="text-yellow-300 mt-1">⚡</span><span class="text-yellow-300 font-semibold">Morador avisado em segundos!</span></li>
                     </ul>
                 </div>
 
-                <!-- Card 3: Confirmação -->
+                <!-- Card 3 -->
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
                     <div class="w-14 h-14 bg-gradient-to-br from-purple-400 to-pink-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
                         ✍️
                     </div>
                     <h3 class="text-xl sm:text-2xl font-bold mb-3">3. Confirmação de Retirada</h3>
                     <ul class="space-y-2 text-sm sm:text-base text-blue-100">
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span>Assinatura digital do morador</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span>Ou confirmação pelo porteiro</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span>Registro de data/hora exatas</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-yellow-300 mt-1">🛡️</span>
-                            <span class="text-yellow-300 font-semibold">Proteção total contra perdas</span>
-                        </li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Assinatura digital</li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Ou confirmação pelo porteiro</li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Data/hora registradas</li>
+                        <li class="flex items-start gap-2"><span class="text-yellow-300 mt-1">🛡️</span><span class="text-yellow-300 font-semibold">Zero risco de perdas</span></li>
                     </ul>
                 </div>
 
-                <!-- Card 4: Dashboard -->
+                <!-- Card 4 -->
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105 md:col-span-2 lg:col-span-2">
                     <div class="w-14 h-14 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
                         📊
                     </div>
                     <h3 class="text-xl sm:text-2xl font-bold mb-3">4. Dashboard do Síndico</h3>
-                    <p class="text-yellow-300 font-semibold mb-4 text-sm sm:text-base">⭐ Isso o síndico AMA!</p>
+                    <p class="text-yellow-300 font-semibold mb-4 text-sm sm:text-base">⭐ Controle total da portaria em tempo real!</p>
                     <div class="grid sm:grid-cols-2 gap-3 text-sm sm:text-base text-blue-100">
-                        <div class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span><strong>Entregas por dia</strong> em gráficos</span>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span><strong>Pendentes</strong> em tempo real</span>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span><strong>Atrasadas</strong> com alertas</span>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span><strong>Top moradores</strong> que nunca retiram</span>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span><strong>SLA da portaria</strong> (eficiência)</span>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <span class="text-yellow-300 mt-1">📈</span>
-                            <span class="text-yellow-300 font-semibold">Visibilidade total!</span>
-                        </div>
+                        <div class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Gráficos de entregas por dia</div>
+                        <div class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Itens pendentes em tempo real</div>
+                        <div class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Atrasadas com alerta automático</div>
+                        <div class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Moradores que mais acumulam entregas</div>
+                        <div class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Métrica de eficiência da portaria (SLA)</div>
+                        <div class="flex items-start gap-2"><span class="text-yellow-300 mt-1">📈</span><span class="text-yellow-300 font-semibold">Visão completa em segundos!</span></div>
                     </div>
                 </div>
 
-                <!-- Card 5: Relatório -->
+                <!-- Card 5 -->
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105 lg:col-span-1">
                     <div class="w-14 h-14 bg-gradient-to-br from-red-400 to-rose-500 rounded-xl flex items-center justify-center mb-4 text-2xl">
                         📄
                     </div>
                     <h3 class="text-xl sm:text-2xl font-bold mb-3">5. Relatório Mensal</h3>
                     <ul class="space-y-2 text-sm sm:text-base text-blue-100">
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span><strong>PDF automático</strong> com tudo</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span>Estatísticas completas</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-green-400 mt-1">✓</span>
-                            <span>Pronto para assembleias</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-yellow-300 mt-1">💼</span>
-                            <span class="text-yellow-300 font-semibold">Ajuda na venda!</span>
-                        </li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>PDF automático completo</li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Estatísticas detalhadas</li>
+                        <li class="flex items-start gap-2"><span class="text-green-400 mt-1">✓</span>Perfeito para assembleias</li>
+                        <li class="flex items-start gap-2"><span class="text-yellow-300 mt-1">💼</span><span class="text-yellow-300 font-semibold">Ajuda até na valorização do condomínio</span></li>
                     </ul>
                 </div>
             </div>
 
-            <!-- CTA da seção -->
+            <!-- CTA -->
             <div class="text-center mt-12">
                 <div class="bg-yellow-400/20 backdrop-blur-sm border border-yellow-400/30 rounded-2xl p-6 sm:p-8 max-w-3xl mx-auto">
                     <p class="text-lg sm:text-xl mb-4">
-                        <strong class="text-yellow-300">EXCLUSIVO:</strong> Poucos sistemas no Brasil têm isso. Diferencial competitivo enorme!
+                        <strong class="text-yellow-300">EXCLUSIVO:</strong> Pouquíssimos sistemas no Brasil oferecem esse nível de controle.
                     </p>
                     <a href="#cadastro" class="inline-flex items-center justify-center px-8 sm:px-10 py-4 sm:py-5 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-blue-900 font-bold text-lg sm:text-xl rounded-2xl shadow-2xl transition-all duration-300 transform hover:scale-105">
                         TESTAR GESTÃO DE ENTREGAS GRÁTIS
@@ -593,6 +521,7 @@
         </div>
     </section>
 
+
     <!-- Depoimentos -->
     <section class="py-24 bg-white">
         <div class="container mx-auto px-4">
@@ -601,14 +530,16 @@
                     DEPOIMENTOS REAIS
                 </span>
                 <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                    Veja O Que Síndicos Estão Dizendo
+                    O Que Síndicos Estão Dizendo
                 </h2>
                 <p class="text-xl text-gray-600">
-                    Mais de 300 síndicos já economizam horas todo mês
+                    Mais de 300 síndicos já economizam horas todos os meses com o SíndicoFácil
                 </p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+                <!-- João -->
                 <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-3xl border border-blue-200 shadow-lg">
                     <div class="flex items-center gap-4 mb-4">
                         <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
@@ -616,19 +547,23 @@
                         </div>
                         <div>
                             <div class="font-bold text-gray-900">João Martins</div>
-                            <div class="text-sm text-gray-600">Síndico há 3 anos, 28 unidades</div>
+                            <div class="text-sm text-gray-600">Síndico há 3 anos — 28 unidades</div>
                         </div>
                     </div>
+
                     <div class="text-yellow-500 mb-3">⭐⭐⭐⭐⭐</div>
+
                     <p class="text-gray-700 italic mb-4">
-                        "Antes eu gastava <strong>5 horas por mês só com cobrança</strong>.
-                        Agora é automático. A inadimplência caiu de 18% para 3%. Vale cada centavo!"
+                        "Antes eu gastava <strong>quase 5 horas por mês só com cobrança</strong>.
+                        Agora é tudo automático. A inadimplência caiu de 18% para 3%. Melhor decisão que tomei para o condomínio."
                     </p>
+
                     <div class="text-sm text-green-600 font-semibold">
-                        ✓ Economizou 5h/mês
+                        ✓ Reduziu 5h de trabalho por mês
                     </div>
                 </div>
 
+                <!-- Ana Paula -->
                 <div class="bg-gradient-to-br from-purple-50 to-white p-8 rounded-3xl border border-purple-200 shadow-lg">
                     <div class="flex items-center gap-4 mb-4">
                         <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
@@ -636,19 +571,24 @@
                         </div>
                         <div>
                             <div class="font-bold text-gray-900">Ana Paula</div>
-                            <div class="text-sm text-gray-600">Condomínio de 15 casas</div>
+                            <div class="text-sm text-gray-600">Condomínio com 15 casas</div>
                         </div>
                     </div>
+
                     <div class="text-yellow-500 mb-3">⭐⭐⭐⭐⭐</div>
+
                     <p class="text-gray-700 italic mb-4">
-                        "Finalmente os moradores param de me questionar.
-                        <strong>O relatório fica público</strong> e todo mundo vê onde vai o dinheiro. Transparência total!"
+                        "Os moradores pararam de me cobrar coisas do financeiro.
+                        <strong>Os relatórios são claros e compartilháveis</strong>.
+                        Hoje a transparência é total e as assembleias são muito mais tranquilas."
                     </p>
+
                     <div class="text-sm text-green-600 font-semibold">
                         ✓ 100% de aprovação nas assembleias
                     </div>
                 </div>
 
+                <!-- Roberto -->
                 <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-3xl border border-green-200 shadow-lg">
                     <div class="flex items-center gap-4 mb-4">
                         <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
@@ -656,38 +596,43 @@
                         </div>
                         <div>
                             <div class="font-bold text-gray-900">Roberto Lima</div>
-                            <div class="text-sm text-gray-600">Síndico profissional, 4 prédios</div>
+                            <div class="text-sm text-gray-600">Síndico profissional — 4 prédios</div>
                         </div>
                     </div>
+
                     <div class="text-yellow-500 mb-3">⭐⭐⭐⭐⭐</div>
+
                     <p class="text-gray-700 italic mb-4">
-                        "Sou síndico de 4 prédios. <strong>Esse sistema me salvou.</strong>
-                        Interface é tão simples que até minha mãe usaria. Melhor custo-benefício."
+                        "Gerencio quatro prédios e o sistema simplesmente <strong>me salvou</strong>.
+                        Interface fácil, zero complicação. Hoje faço tudo do celular.
+                        Melhor custo-benefício que já encontrei."
                     </p>
+
                     <div class="text-sm text-green-600 font-semibold">
-                        ✓ Gerencia 4 condomínios facilmente
+                        ✓ Operação simplificada em 4 condomínios
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-
-    <!-- Comparação -->
     <section class="py-24 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white">
         <div class="container mx-auto px-4">
+
             <div class="text-center mb-16">
                 <span class="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-semibold mb-4 border border-white/20">
                     POR QUE ESCOLHER O SÍNDICOFÁCIL?
                 </span>
                 <h2 class="text-4xl md:text-5xl font-bold mb-4">
-                    Veja a Diferença
+                    Compare e Veja a Diferença
                 </h2>
                 <p class="text-xl text-blue-100">
-                    Compare nosso sistema com as principais opções do mercado
+                    Como o SíndicoFácil se destaca frente às principais alternativas do mercado
                 </p>
             </div>
 
             <div class="max-w-5xl mx-auto">
+
                 <div class="bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 overflow-x-auto">
                     <table class="w-full min-w-[600px]">
                         <thead>
@@ -698,11 +643,12 @@
                                     <div class="text-xs sm:text-sm text-yellow-300">✨ Nossa solução</div>
                                 </th>
                                 <th class="p-3 sm:p-6 text-center">
-                                    <div class="text-sm sm:text-base text-gray-300">Outros Sistemas</div>
+                                    <div class="text-sm sm:text-base text-gray-300">Outros sistemas</div>
                                     <div class="text-xs text-gray-400">(Superlógica, TownSq, etc.)</div>
                                 </th>
                             </tr>
                         </thead>
+
                         <tbody class="divide-y divide-white/10">
                             <tr>
                                 <td class="p-3 sm:p-6 text-sm sm:text-base">Mensalidade</td>
@@ -714,55 +660,61 @@
                                     <div class="text-base sm:text-xl text-red-300">R$ 200–500+</div>
                                 </td>
                             </tr>
+
                             <tr>
                                 <td class="p-3 sm:p-6 text-sm sm:text-base">Tempo de configuração</td>
                                 <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
-                                    <div class="text-green-400 font-bold text-sm sm:text-base">5 minutos</div>
+                                    <div class="text-green-400 font-bold">5 minutos</div>
                                 </td>
                                 <td class="p-3 sm:p-6 text-center">
-                                    <div class="text-red-300 text-sm sm:text-base">2–3 dias</div>
+                                    <div class="text-red-300">2–3 dias</div>
                                 </td>
                             </tr>
+
                             <tr>
                                 <td class="p-3 sm:p-6 text-sm sm:text-base">Facilidade de uso</td>
                                 <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
-                                    <div class="text-green-400 text-xs sm:text-base">✓ Interface simples e intuitiva</div>
+                                    <div class="text-green-400">✓ Interface simples e intuitiva</div>
                                 </td>
                                 <td class="p-3 sm:p-6 text-center">
-                                    <div class="text-red-300 text-xs sm:text-base">✗ Exige treinamento</div>
+                                    <div class="text-red-300">✗ Exige treinamento</div>
                                 </td>
                             </tr>
+
                             <tr>
                                 <td class="p-3 sm:p-6 text-sm sm:text-base">Suporte</td>
                                 <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
-                                    <div class="text-green-400 text-xs sm:text-base">✓ Suporte rápido via WhatsApp</div>
-                                    <div class="text-xs text-gray-300">Resposta em menos de 2 horas</div>
+                                    <div class="text-green-400">✓ WhatsApp rápido</div>
+                                    <div class="text-xs text-gray-300">Respostas em até 2h</div>
                                 </td>
                                 <td class="p-3 sm:p-6 text-center">
-                                    <div class="text-red-300 text-xs sm:text-base">✗ Atendimento apenas por e-mail</div>
-                                    <div class="text-xs text-gray-400">Demora de vários dias</div>
+                                    <div class="text-red-300">✗ Somente e-mail</div>
+                                    <div class="text-xs text-gray-400">Espera de dias</div>
                                 </td>
                             </tr>
+
                             <tr>
                                 <td class="p-3 sm:p-6 text-sm sm:text-base">Teste grátis</td>
                                 <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
-                                    <div class="text-green-400 font-bold text-sm sm:text-base">14 dias</div>
-                                    <div class="text-xs text-gray-300">Sem cartão de crédito</div>
+                                    <div class="text-green-400 font-bold">14 dias</div>
+                                    <div class="text-xs text-gray-300">Sem cartão</div>
                                 </td>
                                 <td class="p-3 sm:p-6 text-center">
-                                    <div class="text-red-300 text-sm sm:text-base">7 dias</div>
+                                    <div class="text-red-300">7 dias</div>
                                     <div class="text-xs text-gray-400">Cartão obrigatório</div>
                                 </td>
                             </tr>
+
                             <tr>
                                 <td class="p-3 sm:p-6 text-sm sm:text-base">Contrato</td>
                                 <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
-                                    <div class="text-green-400 text-xs sm:text-base">✓ Cancele quando quiser</div>
+                                    <div class="text-green-400">✓ Cancele quando quiser</div>
                                 </td>
                                 <td class="p-3 sm:p-6 text-center">
-                                    <div class="text-red-300 text-xs sm:text-base">✗ Fidelidade mínima de 12 meses</div>
+                                    <div class="text-red-300">✗ 12 meses de fidelidade</div>
                                 </td>
                             </tr>
+
                         </tbody>
                     </table>
                 </div>
@@ -775,9 +727,11 @@
                         </svg>
                     </a>
                 </div>
+
             </div>
         </div>
     </section>
+
 
     <!-- Segurança / LGPD -->
     <section class="py-24 bg-white">
