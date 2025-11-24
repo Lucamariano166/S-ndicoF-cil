@@ -13,8 +13,8 @@ class LandingController extends Controller
     {
         error_log('LandingController called');
 
-        // Test with simple view first
-        return view('test-simple');
+        // Test with direct HTML response
+        return response('<html><body><h1>Direct HTML Response Works!</h1></body></html>');
     }
 
     public function store(Request $request)
