@@ -130,6 +130,101 @@
         </div>
     </section>
 
+    <!-- Dores Específicas -->
+    <section class="py-24 bg-white relative">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="inline-block px-4 py-2 bg-red-100 text-red-600 rounded-full text-sm font-semibold mb-4">
+                    VOCÊ ENFRENTA ISSO NO SEU CONDOMÍNIO?
+                </span>
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                    Reconhece Essas Situações?
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Criamos o SíndicoFácil para resolver exatamente esses problemas
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+                <div class="bg-gradient-to-br from-red-50 to-red-100 p-8 rounded-3xl border-l-4 border-red-500">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-red-500 rounded-xl flex items-center justify-center text-2xl">
+                            💸
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 text-gray-900">Dificuldade com inadimplência?</h3>
+                            <p class="text-gray-700">
+                                Cobranças manuais, lembretes esquecidos e moradores atrasando pagamentos
+                                tornam a gestão financeira mais complicada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-3xl border-l-4 border-orange-500">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center text-2xl">
+                            📊
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 text-gray-900">Planilhas gerando dor de cabeça?</h3>
+                            <p class="text-gray-700">
+                                Atualizar planilhas todo mês é demorado e aumenta as chances de erros e
+                                informações perdidas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 p-8 rounded-3xl border-l-4 border-yellow-500">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-yellow-600 rounded-xl flex items-center justify-center text-2xl">
+                            📱
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 text-gray-900">Chamados desorganizados?</h3>
+                            <p class="text-gray-700">
+                                Pedidos chegam por WhatsApp, bilhetes ou conversas rápidas —
+                                e sem registro, muitos acabam esquecidos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-3xl border-l-4 border-purple-500">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center text-2xl">
+                            📄
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 text-gray-900">Prestação de contas difícil?</h3>
+                            <p class="text-gray-700">
+                                Reunir comprovantes, lançar despesas e preparar relatórios leva muito tempo
+                                e ainda gera questionamentos dos moradores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <p class="text-2xl font-bold text-gray-900 mb-4">
+                    Se duas ou mais situações parecem familiares...
+                </p>
+                <p class="text-xl text-gray-600 mb-8">
+                    Talvez seja hora de testar uma gestão mais simples, moderna e automatizada.
+                </p>
+                <a href="#cadastro" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg rounded-xl shadow-xl transition-all duration-300">
+                    Quero Testar o SíndicoFácil
+                    <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Benefícios Concretos -->
     <section class="py-24 bg-gradient-to-br from-gray-50 to-blue-50">
         <div class="container mx-auto px-4">
@@ -442,7 +537,7 @@
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
                 <!-- João -->
                 <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-3xl border border-blue-200 shadow-lg">
@@ -493,10 +588,227 @@
                     </div>
                 </div>
 
+                <!-- Roberto -->
+                <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-3xl border border-green-200 shadow-lg">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
+                            RL
+                        </div>
+                        <div>
+                            <div class="font-bold text-gray-900">Roberto Lima</div>
+                            <div class="text-sm text-gray-600">Síndico profissional — 4 prédios</div>
+                        </div>
+                    </div>
+
+                    <div class="text-yellow-500 mb-3">⭐⭐⭐⭐⭐</div>
+
+                    <p class="text-gray-700 italic mb-4">
+                        "Gerencio quatro prédios e o sistema simplesmente <strong>me salvou</strong>.
+                        Interface fácil, zero complicação. Hoje faço tudo do celular.
+                        Melhor custo-benefício que já encontrei."
+                    </p>
+
+                    <div class="text-sm text-green-600 font-semibold">
+                        ✓ Operação simplificada em 4 condomínios
+                    </div>
+                </div>
 
             </div>
         </div>
     </section>
+    <section class="py-24 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white">
+        <div class="container mx-auto px-4">
+
+            <div class="text-center mb-16">
+                <span class="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-semibold mb-4 border border-white/20">
+                    POR QUE ESCOLHER O SÍNDICOFÁCIL?
+                </span>
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    Compare e Veja a Diferença
+                </h2>
+                <p class="text-xl text-blue-100">
+                    Como o SíndicoFácil se destaca frente às principais alternativas do mercado
+                </p>
+            </div>
+
+            <div class="max-w-5xl mx-auto">
+
+                <div class="bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 overflow-x-auto">
+                    <table class="w-full min-w-[600px]">
+                        <thead>
+                            <tr class="border-b border-white/20">
+                                <th class="p-3 sm:p-6 text-left"></th>
+                                <th class="p-3 sm:p-6 text-center bg-yellow-500/20">
+                                    <div class="font-bold text-base sm:text-xl">SíndicoFácil</div>
+                                    <div class="text-xs sm:text-sm text-yellow-300">✨ Nossa solução</div>
+                                </th>
+                                <th class="p-3 sm:p-6 text-center">
+                                    <div class="text-sm sm:text-base text-gray-300">Outros sistemas</div>
+                                    <div class="text-xs text-gray-400">(Superlógica, TownSq, etc.)</div>
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="divide-y divide-white/10">
+                            <tr>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Mensalidade</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-lg sm:text-2xl font-bold text-yellow-400">R$ 79–179</div>
+                                    <div class="text-xs text-gray-300">por condomínio</div>
+                                </td>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-base sm:text-xl text-red-300">R$ 200–500+</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Tempo de configuração</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-green-400 font-bold">5 minutos</div>
+                                </td>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-red-300">2–3 dias</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Facilidade de uso</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-green-400">✓ Interface simples e intuitiva</div>
+                                </td>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-red-300">✗ Exige treinamento</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Suporte</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-green-400">✓ WhatsApp rápido</div>
+                                    <div class="text-xs text-gray-300">Respostas em até 2h</div>
+                                </td>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-red-300">✗ Somente e-mail</div>
+                                    <div class="text-xs text-gray-400">Espera de dias</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Teste grátis</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-green-400 font-bold">14 dias</div>
+                                    <div class="text-xs text-gray-300">Sem cartão</div>
+                                </td>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-red-300">7 dias</div>
+                                    <div class="text-xs text-gray-400">Cartão obrigatório</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="p-3 sm:p-6 text-sm sm:text-base">Contrato</td>
+                                <td class="p-3 sm:p-6 text-center bg-yellow-500/10">
+                                    <div class="text-green-400">✓ Cancele quando quiser</div>
+                                </td>
+                                <td class="p-3 sm:p-6 text-center">
+                                    <div class="text-red-300">✗ 12 meses de fidelidade</div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="text-center mt-12">
+                    <a href="#cadastro" class="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-blue-900 font-bold text-xl rounded-2xl shadow-2xl transition-all duration-300 transform hover:scale-105">
+                        COMEÇAR TESTE GRÁTIS AGORA
+                        <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Segurança / LGPD -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-12">
+                <span class="inline-block px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-semibold mb-4">
+                    SEUS DADOS ESTÃO PROTEGIDOS
+                </span>
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Segurança e Conformidade
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Priorizamos a proteção das informações do seu condomínio
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="text-center p-8">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">100% Conforme LGPD</h3>
+                    <p class="text-gray-600">
+                        Sistema totalmente aderente à Lei Geral de Proteção de Dados, com armazenamento criptografado no Brasil.
+                    </p>
+                </div>
+
+                <div class="text-center p-8">
+                    <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">Backup Automático</h3>
+                    <p class="text-gray-600">
+                        Seus dados são armazenados automaticamente a cada 6 horas — sem risco de perda.
+                    </p>
+                </div>
+
+                <div class="text-center p-8">
+                    <div class="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">Criptografia SSL</h3>
+                    <p class="text-gray-600">
+                        Segurança de nível bancário com criptografia SSL 256-bit, protegendo todo o tráfego de dados.
+                    </p>
+                </div>
+            </div>
+
+            <div class="max-w-3xl mx-auto mt-12 p-8 bg-gradient-to-r from-blue-50 to-purple-50 rounded-3xl border border-blue-200">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-900 mb-2">Criado por especialistas em condomínios</h4>
+                        <p class="text-gray-700">
+                            Nossa equipe é formada por ex-síndicos e administradores com mais de 10 anos de experiência real no setor.
+                            Entendemos suas dores porque já estivemos no seu lugar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Preços -->
     <section class="py-24 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white relative overflow-hidden">
         <div class="absolute inset-0 opacity-10">
