@@ -1,19 +1,20 @@
 #!/bin/bash
 set -e
 
-# Criar diretórios necessários
+echo "Creating directories..."
 mkdir -p storage/framework/{sessions,views,cache}
 mkdir -p storage/logs
 mkdir -p bootstrap/cache
+mkdir -p database
 
-# Criar database se não existir
+echo "Creating database file..."
 touch database/database.sqlite
 
-# Ajustar permissões
+echo "Setting permissions..."
 chmod -R 775 storage bootstrap/cache database 2>/dev/null || true
 
-# Rodar migrations
-php artisan migrate --force --isolated
+echo "Running migrations..."
+php artisan migrate --force --isolated || echo "Migration failed, continuing..."
 
-# Iniciar servidor
+echo "Starting server on port $PORT..."
 exec php artisan serve --host=0.0.0.0 --port=$PORT
