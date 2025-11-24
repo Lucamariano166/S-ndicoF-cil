@@ -28,5 +28,8 @@ cat public/build/manifest.json || echo "Manifest not found!"
 echo "Testing application..."
 php artisan route:list
 
+echo "Testing view rendering..."
+php artisan tinker --execute="echo view('landing-v3')->render(); echo PHP_EOL . 'View rendered successfully!' . PHP_EOL;" || echo "View render failed!"
+
 echo "Starting server on port $PORT..."
 exec php artisan serve --host=0.0.0.0 --port=$PORT
