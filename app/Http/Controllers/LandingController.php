@@ -11,7 +11,13 @@ class LandingController extends Controller
 {
     public function index()
     {
-        return view('landing-v3');
+        try {
+            return view('landing-v3');
+        } catch (\Exception $e) {
+            \Log::error('Landing page error: ' . $e->getMessage());
+            \Log::error($e->getTraceAsString());
+            throw $e;
+        }
     }
 
     public function store(Request $request)
