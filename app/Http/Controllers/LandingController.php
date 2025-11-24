@@ -11,36 +11,10 @@ class LandingController extends Controller
 {
     public function index()
     {
-        // Log that we reached the controller
-        error_log('========================================');
-        error_log('LandingController::index() called at ' . date('Y-m-d H:i:s'));
-        error_log('Request URL: ' . request()->fullUrl());
-        error_log('========================================');
+        error_log('LandingController called');
 
-        try {
-            // Simple test first
-            error_log('Step 1: Checking view exists');
-            if (!view()->exists('landing-v3')) {
-                error_log('ERROR: View landing-v3 not found');
-                return response('View landing-v3 not found', 404);
-            }
-
-            error_log('Step 2: Creating empty ViewErrorBag');
-            $errorBag = new \Illuminate\Support\ViewErrorBag();
-
-            error_log('Step 3: Attempting to render view');
-            $content = view('landing-v3')->with('errors', $errorBag)->render();
-
-            error_log('Step 4: View rendered successfully, length: ' . strlen($content));
-            return response($content)->header('X-Laravel-Response', 'true');
-        } catch (\Throwable $e) {
-            $error = 'Exception in LandingController: ' . $e->getMessage() . "\n\nFile: " . $e->getFile() . ':' . $e->getLine();
-            error_log('========================================');
-            error_log('EXCEPTION: ' . $error);
-            error_log('Stack trace: ' . $e->getTraceAsString());
-            error_log('========================================');
-            return response($error, 500)->header('X-Laravel-Response', 'error');
-        }
+        // Return simple HTML without Blade for now
+        return response()->view('landing-v3');
     }
 
     public function store(Request $request)
