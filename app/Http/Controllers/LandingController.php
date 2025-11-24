@@ -11,18 +11,27 @@ class LandingController extends Controller
 {
     public function index()
     {
+        // Log that we reached the controller
+        error_log('LandingController::index() called');
+
         try {
             // Test if view file exists
             if (!view()->exists('landing-v3')) {
+                error_log('View landing-v3 not found');
                 return response('View landing-v3 not found', 404);
             }
 
+            error_log('Attempting to render view');
+
             // Try to render with explicit empty errors bag
-            return view('landing-v3')->with('errors', new \Illuminate\Support\ViewErrorBag());
-        } catch (\Exception $e) {
-            \Log::error('Landing page error: ' . $e->getMessage());
-            \Log::error($e->getTraceAsString());
-            return response('Error: ' . $e->getMessage(), 500);
+            $view = view('landing-v3')->with('errors', new \Illuminate\Support\ViewErrorBag());
+
+            error_log('View rendered successfully');
+            return $view;
+        } catch (\Throwable $e) {
+            error_log('Exception in LandingController: ' . $e->getMessage());
+            error_log('Stack trace: ' . $e->getTraceAsString());
+            return response('Error: ' . $e->getMessage() . "\n\nFile: " . $e->getFile() . "\nLine: " . $e->getLine(), 500);
         }
     }
 
