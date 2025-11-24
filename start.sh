@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # Criar diretórios necessários
 mkdir -p storage/framework/{sessions,views,cache}
@@ -9,16 +10,10 @@ mkdir -p bootstrap/cache
 touch database/database.sqlite
 
 # Ajustar permissões
-chmod -R 775 storage bootstrap/cache
-chmod 664 database/database.sqlite
+chmod -R 775 storage bootstrap/cache database 2>/dev/null || true
 
 # Rodar migrations
-php artisan migrate --force
-
-# Limpar e cachear
-php artisan config:clear
-php artisan route:clear
-php artisan view:clear
+php artisan migrate --force --isolated
 
 # Iniciar servidor
-php artisan serve --host=0.0.0.0 --port=$PORT
+exec php artisan serve --host=0.0.0.0 --port=$PORT
