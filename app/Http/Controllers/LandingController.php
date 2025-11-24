@@ -11,9 +11,7 @@ class LandingController extends Controller
 {
     public function index()
     {
-        // Force share errors with this specific view
-        $errors = session()->get('errors', new \Illuminate\Support\ViewErrorBag());
-        return view('test-simple', compact('errors'));
+        return view('landing-v3');
     }
 
     public function store(Request $request)
