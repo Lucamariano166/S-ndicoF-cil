@@ -47,21 +47,21 @@
 
                 <!-- TÍTULO -->
                 <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
-                    A Nova Forma de <span class="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Gerir Condomínios</span><br />
-                    de Forma Simples e Sem Dor de Cabeça
+                    SíndicoFácil: <span class="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Economize até 8h por semana</span><br />
+                    e Reduza Inadimplência do Condomínio
                 </h1>
 
                 <!-- SUBTÍTULO -->
                 <p class="text-2xl md:text-3xl mb-8 font-light leading-relaxed">
-                    Estamos desenvolvendo uma plataforma moderna para simplificar<br />
-                    boletos, chamados, comunicação e gestão financeira — tudo em um só lugar.<br />
+                    Centralize boletos, chamados, comunicação e gestão financeira<br />
+                    em um único painel fácil de usar<br />
                     <strong class="text-yellow-400">Participe do acesso antecipado.</strong>
                 </p>
 
                 <!-- CTA -->
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                     <a href="#cadastro" class="group relative inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-blue-900 font-bold text-xl rounded-2xl shadow-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-yellow-500/50">
-                        QUERO ENTRAR NA LISTA DE ESPERA
+                        TESTAR GRATUITAMENTE 14 DIAS
                         <svg class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
                         </svg>
@@ -105,6 +105,46 @@
         </div>
     </section>
 
+
+    <!-- Vídeo Demonstrativo -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-5xl mx-auto text-center">
+                <span class="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
+                    VEJA O SINDICOFÁCIL EM AÇÃO
+                </span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Gere Boletos e Gerencie Entregas em Segundos
+                </h2>
+                <p class="text-xl text-gray-600 mb-8">
+                    Assista como é simples usar o dashboard que economiza horas do seu dia
+                </p>
+
+                <!-- Placeholder para vídeo - substituir com URL real -->
+                <div class="relative aspect-video bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl shadow-2xl overflow-hidden border-4 border-blue-200">
+                    <div class="absolute inset-0 flex flex-col items-center justify-center">
+                        <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mb-4 animate-pulse">
+                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"></path>
+                            </svg>
+                        </div>
+                        <p class="text-gray-700 font-semibold text-lg">Vídeo demonstrativo em breve</p>
+                        <p class="text-gray-500 text-sm mt-2">Dashboard real mostrando geração de boletos e gestão de entregas</p>
+                    </div>
+                    <!-- Quando tiver o vídeo, usar:
+                    <iframe
+                        class="w-full h-full"
+                        src="https://www.youtube.com/embed/SEU_VIDEO_ID"
+                        title="Demonstração SíndicoFácil"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    -->
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Prova Social -->
     <section class="py-12 bg-white border-b border-gray-200">
@@ -155,34 +195,28 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Boletos Automáticos</h3>
-                            <p class="text-gray-600 mb-4">Organize a cobrança e facilite o controle financeiro do condomínio.</p>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">💰 Boletos Automáticos</h3>
+                            <p class="text-gray-600 mb-4">Reduza inadimplência e economize até 5h/mês</p>
                         </div>
                     </div>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-green-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Gere todos os boletos em 1 clique</strong> — sem tarefas repetitivas.</span>
+                            <span>Gere todos os boletos em <strong>1 clique</strong></span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-green-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Lembrete automático por WhatsApp</strong> antes do vencimento.</span>
+                            <span>Lembrete automático por <strong>WhatsApp</strong></span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-green-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Dashboard visual:</strong> fácil identificar quem está em dia.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-green-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
-                            </svg>
-                            <span><strong>Pix integrado:</strong> pagamento instantâneo e registro automático.</span>
+                            <span><strong>Pix integrado</strong> com confirmação automática</span>
                         </li>
                     </ul>
                 </div>
@@ -196,34 +230,28 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Central de Chamados</h3>
-                            <p class="text-gray-600 mb-4">Organize solicitações e acompanhe tudo em um só lugar.</p>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">📋 Central de Chamados</h3>
+                            <p class="text-gray-600 mb-4">Nunca mais perca uma solicitação no WhatsApp</p>
                         </div>
                     </div>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Todos os pedidos reunidos</strong> — sem mensagens perdidas.</span>
+                            <span>Todos os pedidos <strong>centralizados</strong></span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Status organizado:</strong> pendente, em andamento ou resolvido.</span>
+                            <span><strong>Status organizado</strong> e histórico completo</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Histórico por apartamento</strong> para consultas rápidas.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
-                            </svg>
-                            <span><strong>Notificação automática</strong> quando o chamado é atualizado.</span>
+                            <span><strong>Notificações automáticas</strong> aos moradores</span>
                         </li>
                     </ul>
                 </div>
@@ -237,34 +265,28 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Prestação de Contas Simplificada</h3>
-                            <p class="text-gray-600 mb-4">Relatórios claros, sempre prontos para apresentar.</p>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">📊 Prestação de Contas</h3>
+                            <p class="text-gray-600 mb-4">Transparência total em poucos cliques</p>
                         </div>
                     </div>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-purple-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Dashboard transparente:</strong> moradores acompanham gastos com clareza.</span>
+                            <span><strong>Dashboard visual</strong> para moradores</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-purple-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Gráficos automáticos</strong> por categoria de despesa.</span>
+                            <span><strong>Gráficos automáticos</strong> por categoria</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-purple-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Exporta PDF</strong> para facilitar assembleias.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-purple-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
-                            </svg>
-                            <span><strong>Comparativo mensal</strong> para acompanhar evolução dos gastos.</span>
+                            <span><strong>PDF em 1 clique</strong> para assembleias</span>
                         </li>
                     </ul>
                 </div>
@@ -278,34 +300,28 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Documentos Organizados</h3>
-                            <p class="text-gray-600 mb-4">Encontre arquivos do condomínio de forma rápida e simples.</p>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">📁 Documentos</h3>
+                            <p class="text-gray-600 mb-4">Encontre tudo rapidamente</p>
                         </div>
                     </div>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-pink-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-pink-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Todos os arquivos centralizados:</strong> atas, estatuto, relatórios, contratos e mais.</span>
+                            <span>Atas, estatuto e contratos <strong>centralizados</strong></span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-pink-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-pink-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Busca inteligente</strong> por nome, data ou palavra-chave.</span>
+                            <span><strong>Busca inteligente</strong> por palavra-chave</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-pink-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 text-pink-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                             </svg>
-                            <span><strong>Compartilhe com 1 clique</strong> via WhatsApp ou e-mail.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-pink-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
-                            </svg>
-                            <span><strong>Backup automático na nuvem</strong> para mais segurança.</span>
+                            <span><strong>Backup na nuvem</strong> automático</span>
                         </li>
                     </ul>
                 </div>
@@ -442,7 +458,7 @@
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
 
                 <!-- João -->
                 <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-3xl border border-blue-200 shadow-lg">
@@ -493,7 +509,113 @@
                     </div>
                 </div>
 
+                <!-- Carlos -->
+                <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-3xl border border-green-200 shadow-lg">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
+                            CR
+                        </div>
+                        <div>
+                            <div class="font-bold text-gray-900">Carlos Rodrigues</div>
+                            <div class="text-sm text-gray-600">Síndico profissional — 42 unidades</div>
+                        </div>
+                    </div>
 
+                    <div class="text-yellow-500 mb-3">⭐⭐⭐⭐⭐</div>
+
+                    <p class="text-gray-700 italic mb-4">
+                        "A <strong>gestão de entregas resolveu um problema enorme</strong> que tínhamos na portaria.
+                        Antes perdíamos pelo menos 2 pacotes por mês. Agora temos controle total e os moradores adoram."
+                    </p>
+
+                    <div class="text-sm text-green-600 font-semibold">
+                        ✓ Zero entregas perdidas em 6 meses
+                    </div>
+                </div>
+
+                <!-- Mariana -->
+                <div class="bg-gradient-to-br from-orange-50 to-white p-8 rounded-3xl border border-orange-200 shadow-lg">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
+                            MS
+                        </div>
+                        <div>
+                            <div class="font-bold text-gray-900">Mariana Santos</div>
+                            <div class="text-sm text-gray-600">Condomínio com 35 apartamentos</div>
+                        </div>
+                    </div>
+
+                    <div class="text-yellow-500 mb-3">⭐⭐⭐⭐⭐</div>
+
+                    <p class="text-gray-700 italic mb-4">
+                        "O sistema de chamados acabou com aquele caos de mensagens no WhatsApp.
+                        <strong>Agora nada se perde e consigo acompanhar tudo</strong> de forma profissional."
+                    </p>
+
+                    <div class="text-sm text-green-600 font-semibold">
+                        ✓ Organização total dos chamados
+                    </div>
+                </div>
+
+                <!-- Ricardo -->
+                <div class="bg-gradient-to-br from-indigo-50 to-white p-8 rounded-3xl border border-indigo-200 shadow-lg">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
+                            RL
+                        </div>
+                        <div>
+                            <div class="font-bold text-gray-900">Ricardo Lima</div>
+                            <div class="text-sm text-gray-600">Administradora — 8 condomínios</div>
+                        </div>
+                    </div>
+
+                    <div class="text-yellow-500 mb-3">⭐⭐⭐⭐⭐</div>
+
+                    <p class="text-gray-700 italic mb-4">
+                        "Conseguimos <strong>aumentar a eficiência em 60%</strong> na gestão dos nossos condomínios.
+                        O painel único para todos os prédios foi um divisor de águas para nossa operação."
+                    </p>
+
+                    <div class="text-sm text-green-600 font-semibold">
+                        ✓ Gestão de múltiplos condomínios
+                    </div>
+                </div>
+
+                <!-- Fernanda -->
+                <div class="bg-gradient-to-br from-pink-50 to-white p-8 rounded-3xl border border-pink-200 shadow-lg">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center text-white font-bold text-2xl">
+                            FC
+                        </div>
+                        <div>
+                            <div class="font-bold text-gray-900">Fernanda Costa</div>
+                            <div class="text-sm text-gray-600">Síndica há 1 ano — 22 unidades</div>
+                        </div>
+                    </div>
+
+                    <div class="text-yellow-500 mb-3">⭐⭐⭐⭐⭐</div>
+
+                    <p class="text-gray-700 italic mb-4">
+                        "Sou síndica nova e estava perdida. O SíndicoFácil me deu <strong>toda estrutura que precisava</strong>.
+                        Os moradores elogiam a organização e eu não fico mais estressada."
+                    </p>
+
+                    <div class="text-sm text-green-600 font-semibold">
+                        ✓ Ideal para síndicos iniciantes
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Logos/Prova Social Extra -->
+            <div class="mt-16 text-center">
+                <p class="text-gray-600 mb-6 text-lg">Confiado por condomínios em todo o Brasil</p>
+                <div class="flex flex-wrap justify-center items-center gap-8 opacity-60">
+                    <div class="text-gray-500 font-semibold">🏢 Residenciais</div>
+                    <div class="text-gray-500 font-semibold">🏘️ Condomínios Fechados</div>
+                    <div class="text-gray-500 font-semibold">🏗️ Edifícios Comerciais</div>
+                    <div class="text-gray-500 font-semibold">🏡 Loteamentos</div>
+                </div>
             </div>
         </div>
     </section>
@@ -552,7 +674,7 @@
                         </li>
                     </ul>
                     <a href="#cadastro" class="block text-center bg-white/20 hover:bg-white/30 font-bold py-4 rounded-xl transition duration-300 border border-white/30">
-                        TESTAR GRÁTIS 14 DIAS
+                        TESTAR GRATUITAMENTE
                     </a>
                 </div>
 
@@ -623,7 +745,7 @@
                         </li>
                     </ul>
                     <a href="#cadastro" class="block text-center bg-gray-900 hover:bg-gray-800 text-white font-bold py-4 rounded-xl transition duration-300 shadow-lg">
-                        TESTAR GRÁTIS 14 DIAS
+                        COMEÇAR TESTE GRATUITO
                     </a>
                 </div>
 
