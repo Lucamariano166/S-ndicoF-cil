@@ -9,3 +9,6 @@ Route::get('/test', function() {
 
 Route::get('/', [LandingController::class, 'index'])->name('home');
 Route::post('/contato', [LandingController::class, 'store'])->name('contato.store');
+
+// Rota admin para ver leads (adicione autenticação depois)
+Route::get('/admin/leads', [LandingController::class, 'leads'])->name('admin.leads');

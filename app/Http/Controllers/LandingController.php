@@ -14,6 +14,12 @@ class LandingController extends Controller
         return view('landing-v3');
     }
 
+    public function leads()
+    {
+        $leads = Lead::latest()->get();
+        return view('admin.leads', compact('leads'));
+    }
+
     public function store(Request $request)
     {
         $validated = $request->validate([
