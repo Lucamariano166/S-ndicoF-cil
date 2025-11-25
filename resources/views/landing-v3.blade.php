@@ -106,46 +106,6 @@
     </section>
 
 
-    <!-- Vídeo Demonstrativo -->
-    <section class="py-20 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-5xl mx-auto text-center">
-                <span class="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
-                    VEJA O SINDICOFÁCIL EM AÇÃO
-                </span>
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                    Gere Boletos e Gerencie Entregas em Segundos
-                </h2>
-                <p class="text-xl text-gray-600 mb-8">
-                    Assista como é simples usar o dashboard que economiza horas do seu dia
-                </p>
-
-                <!-- Placeholder para vídeo - substituir com URL real -->
-                <div class="relative aspect-video bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl shadow-2xl overflow-hidden border-4 border-blue-200">
-                    <div class="absolute inset-0 flex flex-col items-center justify-center">
-                        <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mb-4 animate-pulse">
-                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"></path>
-                            </svg>
-                        </div>
-                        <p class="text-gray-700 font-semibold text-lg">Vídeo demonstrativo em breve</p>
-                        <p class="text-gray-500 text-sm mt-2">Dashboard real mostrando geração de boletos e gestão de entregas</p>
-                    </div>
-                    <!-- Quando tiver o vídeo, usar:
-                    <iframe
-                        class="w-full h-full"
-                        src="https://www.youtube.com/embed/SEU_VIDEO_ID"
-                        title="Demonstração SíndicoFácil"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                    -->
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Prova Social -->
     <section class="py-12 bg-white border-b border-gray-200">
         <div class="container mx-auto px-4">
