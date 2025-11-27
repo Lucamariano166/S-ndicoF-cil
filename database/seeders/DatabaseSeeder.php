@@ -19,6 +19,14 @@ class DatabaseSeeder extends Seeder
         $this->call([
             RoleSeeder::class,
             CondominioSeeder::class,
+            BoletoSeeder::class,
+            ChamadoSeeder::class,
+            EntregaSeeder::class,
+            FinanceiroSeeder::class,
+            DocumentoSeeder::class,
+            AssembleiaSeeder::class,
+            ComunicadoSeeder::class,
+            ReservaSeeder::class,
         ]);
     }
 }

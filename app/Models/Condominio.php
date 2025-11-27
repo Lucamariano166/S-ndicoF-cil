@@ -42,6 +42,21 @@ class Condominio extends Model
         return $this->hasMany(Unidade::class);
     }
 
+    public function boletos(): HasMany
+    {
+        return $this->hasMany(Boleto::class);
+    }
+
+    public function chamados(): HasMany
+    {
+        return $this->hasMany(Chamado::class);
+    }
+
+    public function entregas(): HasMany
+    {
+        return $this->hasMany(Entrega::class);
+    }
+
     // Acessors
     public function getEnderecoCompletoAttribute(): string
     {
