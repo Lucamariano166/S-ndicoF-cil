@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ['...', 'php83Extensions.intl', 'php83Extensions.zip']
+
+[phases.install]
+cmds = ['composer install --optimize-autoloader --no-scripts --no-interaction']
+
+[start]
+cmd = 'php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=$PORT'
