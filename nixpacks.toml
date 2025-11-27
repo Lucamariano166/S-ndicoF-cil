@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ['...', 'php83Extensions.intl', 'php83Extensions.zip']
+aptPkgs = ['php-intl', 'php-zip']
 
 [phases.install]
 cmds = ['composer install --optimize-autoloader --no-scripts --no-interaction']
