@@ -1,4 +1,4 @@
-FROM php:8.2-fpm
+FROM php:8.2-cli
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -12,14 +12,16 @@ RUN apt-get update && apt-get install -y \
     zip \
     unzip \
     nodejs \
-    npm
+    npm \
+    nginx \
+    supervisor
 
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
 RUN docker-php-ext-configure intl
-RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip intl
+RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip intl opcache
 
 # Get latest Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
@@ -47,11 +49,22 @@ RUN chown -R www-data:www-data /var/www \
 # Expose port
 EXPOSE 8000
 
+# Create startup script
+RUN echo '#!/bin/bash\n\
+set -e\n\
+\n\
+# Run Laravel setup commands\n\
+php artisan storage:link 2>/dev/null || true\n\
+php artisan migrate --force\n\
+php artisan db:seed --force\n\
+php artisan config:cache\n\
+php artisan route:cache\n\
+php artisan view:cache\n\
+php artisan filament:optimize\n\
+\n\
+# Start PHP built-in server\n\
+exec php artisan serve --host=0.0.0.0 --port=${PORT:-8000} --env=production\n\
+' > /var/www/start.sh && chmod +x /var/www/start.sh
+
 # Start application
-CMD php artisan storage:link && \
-    php artisan migrate --force && \
-    php artisan db:seed --force && \
-    php artisan config:cache && \
-    php artisan route:cache && \
-    php artisan view:cache && \
-    php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
+CMD ["/var/www/start.sh"]
