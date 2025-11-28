@@ -1,0 +1,50 @@
+########################################
+# COPIE E COLE NO RAILWAY - VERSÃO CORRIGIDA
+# O problema era HTTP em vez de HTTPS
+########################################
+
+APP_NAME=SindicoFacil
+APP_ENV=production
+APP_KEY=base64:dxhbRm08VhrIJhFfnWknBP2MCEAUCAZdaqiRw2CNf9I=
+APP_DEBUG=false
+APP_URL=https://sindicofacil-production.up.railway.app
+APP_LOCALE=pt_BR
+APP_FALLBACK_LOCALE=pt_BR
+APP_FAKER_LOCALE=pt_BR
+APP_FORCE_HTTPS=true
+DB_CONNECTION=sqlite
+SESSION_DRIVER=database
+SESSION_LIFETIME=120
+SESSION_ENCRYPT=false
+SESSION_PATH=/
+SESSION_DOMAIN=null
+SESSION_SECURE_COOKIE=true
+CACHE_STORE=database
+QUEUE_CONNECTION=database
+LOG_CHANNEL=stack
+LOG_STACK=single
+LOG_LEVEL=error
+LOG_DEPRECATIONS_CHANNEL=null
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=condominiums06@gmail.com
+MAIL_PASSWORD=vorclptaczdewdov
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=condominiums06@gmail.com
+MAIL_FROM_NAME=SíndicoFácil
+MAIL_ADMIN=condominiums06@gmail.com
+FILESYSTEM_DISK=local
+BROADCAST_CONNECTION=log
+BCRYPT_ROUNDS=12
+APP_MAINTENANCE_DRIVER=file
+ASSET_URL=https://sindicofacil-production.up.railway.app
+FILAMENT_FILESYSTEM_DISK=public
+VITE_APP_NAME=${APP_NAME}
+
+########################################
+# MUDANÇAS IMPORTANTES:
+# - APP_FORCE_HTTPS=true (força HTTPS)
+# - SESSION_SECURE_COOKIE=true (cookies apenas HTTPS)
+# - ASSET_URL com HTTPS (não HTTP)
+########################################
