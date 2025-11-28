@@ -1,6 +1,6 @@
 # 🏗️ SINDICOFÁCIL - ROADMAP DE DESENVOLVIMENTO
 
-**Última atualização:** 25/11/2025
+**Última atualização:** 27/11/2025
 **Status Geral:** 🟡 Em Desenvolvimento
 
 ---

@@ -27,3 +27,8 @@ Route::post('/mercadopago', [\App\Http\Controllers\MercadoPagoWebhookController:
 Route::post('/webhook/mp', [\App\Http\Controllers\MercadoPagoWebhookController::class, 'handle'])
     ->withoutMiddleware([\App\Http\Middleware\VerifyCsrfToken::class])
     ->name('webhooks.mercadopago.mp');
+
+// Rota para gerar PDF do relatório financeiro
+Route::get('/admin/relatorio-financeiro/pdf', [\App\Http\Controllers\RelatorioFinanceiroController::class, 'gerarPdf'])
+    ->middleware(['auth'])
+    ->name('relatorio.pdf');
