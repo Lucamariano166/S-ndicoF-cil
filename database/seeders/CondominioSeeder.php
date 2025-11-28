@@ -53,12 +53,6 @@ class CondominioSeeder extends Seeder
             ]);
         }
 
-        // Atribuir role Super Admin ao usuário admin existente
-        $adminUser = User::where('email', 'lucamariano.lm166@gmail.com')->first();
-        if ($adminUser) {
-            $adminUser->assignRole('super_admin');
-        }
-
         // Criar síndico
         $sindico = User::create([
             'name' => 'João Silva',

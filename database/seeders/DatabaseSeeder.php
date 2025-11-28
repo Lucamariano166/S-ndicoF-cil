@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -18,6 +17,7 @@ class DatabaseSeeder extends Seeder
         // Rodar seeders na ordem correta
         $this->call([
             RoleSeeder::class,
+            AdminSeeder::class,
             CondominioSeeder::class,
             BoletoSeeder::class,
             ChamadoSeeder::class,

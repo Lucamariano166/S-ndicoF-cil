@@ -48,4 +48,10 @@ RUN chown -R www-data:www-data /var/www \
 EXPOSE 8000
 
 # Start application
-CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
+CMD php artisan storage:link && \
+    php artisan migrate --force && \
+    php artisan db:seed --force && \
+    php artisan config:cache && \
+    php artisan route:cache && \
+    php artisan view:cache && \
+    php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
